@@ -1,0 +1,9 @@
+{
+  "extends": "../base.tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../dist/client",
+    "module": "esnext",
+    "target": "esnext",
+    "rootDir": "src",
+  }
+}
