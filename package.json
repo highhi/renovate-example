@@ -4,13 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
-  "workspaces": ["server", "client"],
+  "workspaces": ["server", "client", "shared"],
   "scripts": {
     "start": "tsc -b client server",
     "server": "node ./dist/server",
     "test": "jest",
     "p-client": "yarn workspace client",
-    "p-server": "yarn workspace server"
+    "p-server": "yarn workspace server",
+    "p-shared": "yarn workspace shared"
   },
   "jest": {
     "transform": {

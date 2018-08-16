@@ -1,0 +1,9 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/jest": "23.3.1",
+    "jest": "23.5.0",
+    "ts-jest": "23.1.3"
+  }
+}
