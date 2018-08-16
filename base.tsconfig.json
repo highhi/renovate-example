@@ -15,5 +15,12 @@
     "node_modules",
     "jest",
     "setupTests.ts"
-  ]
+  ],
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "../tsconfig.jest.json"
+      }
+    }
+  }
 }

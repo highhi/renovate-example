@@ -7,6 +7,23 @@
   "workspaces": ["server", "client"],
   "scripts": {
     "start": "tsc -b client server",
-    "server": "node ./dist/server"
+    "server": "node ./dist/server",
+    "test": "jest",
+    "p-client": "yarn workspace client",
+    "p-server": "yarn workspace server"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   }
 }

@@ -6,6 +6,7 @@
     "compression": "1.7.3",
     "express": "4.16.3",
     "helmet": "3.13.0",
+    "jest": "23.5.0",
     "pug": "2.0.3",
     "typescript": "3.0.1"
   },
